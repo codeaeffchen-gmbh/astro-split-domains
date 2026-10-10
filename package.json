@@ -1,0 +1,31 @@
+{
+  "name": "@codeaeffchen/astro-split-domains",
+  "version": "0.1.0",
+  "description": "Astro integration: one static build, one output folder per domain — e.g. German on example.de, English on example.com.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./split": "./src/split.js"
+  },
+  "files": ["src", "README.md", "LICENSE", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["astro", "astro-integration", "withastro", "i18n", "multilingual", "domains", "static", "ssg"],
+  "peerDependencies": {
+    "astro": ">=5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "Codeäffchen (https://codeaeffchen.de)",
+  "homepage": "https://github.com/codeaeffchen-gmbh/astro-split-domains#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeaeffchen-gmbh/astro-split-domains.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeaeffchen-gmbh/astro-split-domains/issues"
+  }
+}
